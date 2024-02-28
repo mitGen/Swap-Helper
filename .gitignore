@@ -1,0 +1,26 @@
+# Config files
+local.json
+
+# Hardhat files
+cache
+artifacts
+typechain
+typechain-types
+
+# Foundry & tests
+tests/cache_forge
+tests/out
+tests/output
+tests/coverage
+tests/coverage.json
+lcov.info
+
+# Lib
+node_modules
+
+# IDE
+.vscode
+.DS_Store
+
+# Package manager
+yarn-error.log

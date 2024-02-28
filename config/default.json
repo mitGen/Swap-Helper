@@ -1,0 +1,37 @@
+{
+  "INFURA_KEY": "0123456789ABCDEFGHIJKLMNOPQRSTUVWX",
+  "ETHERSCAN_API_KEY": "0123456789ABCDEFGHIJKLMNOPQRSTUVWX",
+  "GAS_PRICE": 5,
+  "NODE": {
+    "GAS_PRICE": "auto",
+    "LOGGING": false,
+    "FORK": {
+      "FORK_PROVIDER_URI": "",
+      "FORK_ENABLED": false
+    }
+  },
+  "GAS_REPORTER": {
+    "ENABLED": false,
+    "COINMARKETCAP": "",
+    "CURRENCY": "USD",
+    "TOKEN": "ETH",
+    "GAS_PRICE_API": "https://api.etherscan.io/api?module=proxy&action=eth_gasPrice"
+  },
+  "CONTRACT_SIZER": {
+    "ALPHA_SHORT": false,
+    "RUN_ON_COMPILE": false,
+    "DISAMBIGUATE_PATHS": true,
+    "STRICT": true,
+    "ONLY": [],
+    "EXPECT": []
+  },
+  "DEPLOY": {
+    "DEPLOYER_KEY": "0123456789363552ea583b7ce9ab23d230f65d39e6d4d4898e841f0f304372ea",
+    "TWAP": false,
+    "ROUTER": "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45",
+    "DEVIATION": "100000000000000000"
+  },
+  "SCRIPTS": {
+    "OPERATOR_KEY": "0123456789363552ea583b7ce9ab23d230f65d39e6d4d4898e841f0f304372ea"
+  }
+}

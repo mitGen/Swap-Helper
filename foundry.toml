@@ -1,0 +1,12 @@
+[profile.default]
+src = 'contracts'
+out = 'tests/out'
+libs = ['node_modules', 'lib']
+test = 'tests'
+cache_path  = 'tests/cache_forge'
+fs_permissions = [{ access = "write", path = "./"}]
+
+[rpc_endpoints]
+goerli = "wss://goerli.gateway.tenderly.co"
+mainnet = "https://mainnet.gateway.tenderly.co"
+arbitrum = "https://arb1.arbitrum.io/rpc"
